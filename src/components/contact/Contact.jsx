@@ -31,7 +31,7 @@ const Contact = () => {
         </p>
         <p className="bg-gradient-to-r from-[#0a5749] to-[#05913f] text-white py-1 px-5 rounded-full">
           <strong>Skype: </strong>
-          <span>abdullainfo30@gmail.com</span>
+          <span></span>
         </p>
         <p className="bg-gradient-to-r from-[#0a5749] to-[#05913f] text-white py-1 px-5 rounded-full">
           <strong>Telegram: </strong>

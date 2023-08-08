@@ -5,8 +5,8 @@ const WhatsAppLink = ({ phoneNumber, message }) => {
   const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
 
   return (
-    <a href={whatsappURL} target="_blank" rel="noopener noreferrer">
-      Chat on WhatsApp
+    <a className="hover:underline hover:text-blue-500" href={whatsappURL} target="_blank" rel="noopener noreferrer">
+      +8801752540184
     </a>
   );
 };

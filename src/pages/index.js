@@ -114,25 +114,20 @@ export default function Home() {
         </h1>
         <div className="flex justify-between items-center gap-10">
           <div className="flex flex-col gap-y-5 w-full">
-          <Button
+            <Button
+              href="https://dribbble.com/Infoblox50?fbclid=IwAR2GJsQiQhG96YQ4ccPW6c50Wid7eaTfGGaqShYK5BrbeUkNONc1XCsH5Yc"
               onClick={handleFacebook}
               text="Dribble"
-              href="https://dribbble.com/Sazzadhossainonu?fbclid=IwAR0qvr5uJtoOSqxnoO56aV0jJ_02KJ4zs9BuV9QjFDfXkvdMg5BtSMn35E4"
             />
             <Button
-              href="https://www.behance.net/sazzadonu?fbclid=IwAR05EpUtIbVZ6Iq_2Hju0GlzMRRA946__RyxS9PKCYFsoG7UA90AlVT9Vac&"
+              href="https://www.behance.net/infoblox50?fbclid=IwAR3UGscOJd3_M71IqLxJyqq05X26Aih4qSxComYqrQC6DaOClcpEYAy4n88"
               onClick={handleFacebook}
               text="Behance"
             />
             <Button
-              href="https://www.uplabs.com/sazzadonu?fbclid=IwAR2r67TM3C22MtigOGornRJjlLfpC1A4WGtwAoLzHyZl6Q-8TLA_gS_pvMk"
+              href="https://www.pinterest.com/sazzadhossain2255/_created/?fbclid=IwAR3fm8y9fhY1Uke7mzmMbjlEJFAwfFC1ul0tBudQ8W5N4RveF81XLXu1RlY"
               onClick={handleFacebook}
-              text="Uplabs"
-            />
-            <Button
-              href="https://www.deviantart.com/sazzadhossainonu?fbclid=IwAR1_mTMMYqXR8FLxSBN1PG4Kuoandqt4W35L-Noayf275CPnWxHV-wm0R4s"
-              onClick={handleFacebook}
-              text="Deviant art"
+              text="Pinterest"
             />
           </div>
           <div className="w-full flex items-center justify-center">
@@ -145,29 +140,35 @@ export default function Home() {
             />
           </div>
           <div className="w-full flex flex-col  gap-y-5">
-          <Button
-              href="https://www.pinterest.com/sazzadhossain2255/_created/?fbclid=IwAR3fm8y9fhY1Uke7mzmMbjlEJFAwfFC1ul0tBudQ8W5N4RveF81XLXu1RlY"
-              onClick={handleFacebook}
-              text="Pinterest"
-            />
-            {/* <Button href="" onClick={handleFacebook} text="Carbon" /> */}
             <Button
-              href="https://themeforest.net/user/sazzadhossainh?fbclid=IwAR1sBw1IWbTON-1uC7Qb4ESx4YrGovLlJMqR-67GxMfZcwaNdrsOMK8biAE"
+              href="https://www.facebook.com/infoblox503"
               onClick={handleFacebook}
-              text="Inverto Market"
+              text="Facebook"
             />
             <Button
-              href="https://www.coroflot.com/SazzadHossainonu/stream?fbclid=IwAR0QYKVV6c7p3Rx-NM0EXgcJuUiuk-wab-jXoZk9UC-1ODMWB1XyrT4hkaE"
+              href="https://www.instagram.com/infoblox50/?fbclid=IwAR2ZIhB_lUGT0Z5amXvqIsCmwTOl4vCejkaW9jm5A2hdS283htYO6UNippY"
               onClick={handleFacebook}
-              text="Coroflot"
+              text="Instagram"
+            />
+            <Button
+              href="https://twitter.com/AnuSazzad?fbclid=IwAR04ns8sjfT_TJo4ZhHY2cbtXUrxgb9Fn-ZXXrqDWzKAf_5Viao24ZvxoUY"
+              onClick={handleFacebook}
+              text="Twitter"
+            />
+            <Button
+              href="https://www.linkedin.com/in/sazzad-hossain-onu-461548222/?fbclid=IwAR20A0hwQlsYDZCy-pGQTw4ul8tripHYfE1jGXoafgMAXg99C58vBF04JEI"
+              onClick={handleFacebook}
+              text="Linkedin"
             />
           </div>
         </div>
         <div>
-          <h1 className="text-4xl font-semibold text-white text-center">
+          <h1 className="text-4xl mt-5 font-semibold text-white text-center">
             Contact Info
           </h1>
-          <Contact />
+          <div className="my-10">
+            <Contact />
+          </div>
         </div>
       </main>
     </>
